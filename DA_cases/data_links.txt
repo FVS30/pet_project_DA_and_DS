@@ -1,0 +1,8 @@
+DA № 6 "Кейс «Конкурентный анализ и A/B-тестирование» с подсказкой и логикой решения"
+ссылка на 2 задачу:
+
+https://media.githubusercontent.com/media/Hexlet/ru-test-assignments/refs/heads/main/analytics/dodo-brands-data-analyst/otsenka-kategorij-4.csv
+
+ссылка на 3 задачу : 
+
+https://media.githubusercontent.com/media/Hexlet/ru-test-assignments/refs/heads/main/analytics/dodo-brands-data-analyst/da-sql-sample-sql-task.csv

@@ -19,4 +19,10 @@ Thumbs.db
 # Data files (не пушим гигабайты исходников)
 *.csv
 *.xlsx
+*.xls
 *.parquet
+
+# ML models & binaries
+*.pkl
+*.pth
+*.h5
