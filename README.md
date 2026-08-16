@@ -4,16 +4,20 @@
 
 ---
 
-## 📁 Структура проекта
+## 📁 Структура репозитория
 
 ```text
 pet_project_DA_and_DS/
-├── DA_cases/                                    # Аналитические кейсы (EDA, A/B-тесты, продуктовые метрики, SQL)
-│   ├── competitive_analysis__AB_testing/        # [WIP] Конкурентный анализ и A/B-тестирование
-│   └── forklift_price_analysis/                 # Исследование рынка и факторный анализ цен на спецтехнику
-├── DS_cases/                                    # Проекты по Data Science и машинной аналитике
-├── data/                                        # Исходные и обработанные данные (заблокированы через .gitignore)
-├── models/                                      # Сохраненные модели ML
-├── README.md                                    # Описание репозитория
-└── .gitignore                                   # Настройки исключения файлов Git
-
+├── DA_cases/                                   # Проекты по анализу данных (Data Analytics)
+│   ├── competitive_analysis__AB_testing/       # Анализ конкурентов и A/B тестирование
+│   │   └── _1_Competitive_analysis_and_AB_testing.ipynb
+│   └── forklift_price_analysis/                # Рыночный анализ и гедоническая модель для ID Expert
+│       ├── _1_forklift_price_analysis.ipynb
+│       └── просто шаблон для графика для оформления.ipynb
+├── data/                                       # Локальное хранилище датасетов (в .gitignore)
+│   ├── comp_titi_AB/                           # Данные для проекта A/B тестирования
+│   └── fk_analysis/                            # Исходные и очищенные данные по вилочным погрузчикам
+├── DS_cases/                                   # Кейсы по машинный обучению (Data Science)
+├── models/                                     # Сохраненные бинарники обученных моделей (.pkl, .joblib)
+├── .gitignore                                  # Исключения Git (кэш, .venv, данные, личные .txt)
+└── README.md                                   # Главное описание репозитория и портфолио
