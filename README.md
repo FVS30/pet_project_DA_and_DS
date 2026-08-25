@@ -8,16 +8,25 @@
 
 ```text
 pet_project_DA_and_DS/
-├── DA_cases/                                   # Проекты по анализу данных (Data Analytics)
-│   ├── competitive_analysis__AB_testing/       # Анализ конкурентов и A/B тестирование
-│   │   └── _1_Competitive_analysis_and_AB_testing.ipynb
-│   └── forklift_price_analysis/                # Рыночный анализ и гедоническая модель для ID Expert
-│       ├── _1_forklift_price_analysis.ipynb
-│       └── просто шаблон для графика для оформления.ipynb
-├── data/                                       # Локальное хранилище датасетов (в .gitignore)
-│   ├── comp_titi_AB/                           # Данные для проекта A/B тестирования
-│   └── fk_analysis/                            # Исходные и очищенные данные по вилочным погрузчикам
-├── DS_cases/                                   # Кейсы по машинный обучению (Data Science)
-├── models/                                     # Сохраненные бинарники обученных моделей (.pkl, .joblib)
-├── .gitignore                                  # Исключения Git (кэш, .venv, данные, личные .txt)
-└── README.md                                   # Главное описание репозитория и портфолио
+├── DA_cases/                                      # Проекты по анализу данных (Data Analytics)
+│   ├── competitive_analysis__AB_testing/          # Анализ конкурентов и A/B тестирование
+│   │   └── competitive_analysis_and_AB_testing.ipynb
+│   │
+│   └── forklift_price_analysis/                   # Анализ рынка и моделирование цен складской техники
+│       ├── forklift_price_analysis.ipynb          # Основной аналитический ноутбук проекта
+│       └── reports/                               # Итоговые материалы и результаты проекта
+│           └── forklift_market_presentation_1.pptx # Исходник презентации
+│
+├── data/                                          # Локальное хранилище датасетов (в .gitignore)
+│   ├── comp_titi_AB/                              # Данные для проекта A/B тестирования
+│   └── fk_analysis/                               # Исходные и обработанные данные по вилочным погрузчикам
+│
+├── DS_cases/                                      # Проекты и кейсы по машинному обучению (Data Science)
+│
+├── models/                                        # Сохраненные артефакты обученных моделей
+│   └── forklift_price_analysis/                   # Модели для проекта анализа цен складской техники
+│       └── forklift_price_models.pkl              # Сохраненная расширенная модель ценообразования
+│
+├── .gitignore                                     # Исключения Git: окружения, кэш, локальные данные и служебные файлы
+│
+└── README.md                                      # Главное описание репозитория и портфолио
